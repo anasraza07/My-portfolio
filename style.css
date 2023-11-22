@@ -164,6 +164,7 @@ section {
 
 .servicesBx:hover {
     background: #2196f3;
+    cursor: default;
 }
 
 .servicesBx img {
@@ -193,6 +194,16 @@ section {
 
 .workBx img {
     max-width: 100%;
+}
+
+.workBx img:hover {
+    /* max-width: 100%; */
+    cursor: pointer;
+}
+
+.workBx h3,
+.workBx p {
+    text-align: center;
 }
 
 .testimonial {
