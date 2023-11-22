@@ -27,7 +27,6 @@
             <h2>Hello, I'm <br><span> Muhammad Anas. </span></h2>
             <h3>I'm a Front End Web Developer.</h3>
             <a href="#about" class="btn">About Me</a>
-            <a href="#" class="btn" id="downloadPdf">Download Resume</a>
         </div>
     </section>
     <section class="about" id="about">
@@ -200,27 +199,6 @@
             menu.classList.toggle("active")
             toggle.classList.toggle("active")
         }
-
-        document.querySelector("#downloadPdf").addEventListener("click", () => {
-
-            var resumePath = '/resume.pdf';
-
-            // Create a virtual anchor element
-            var link = document.createElement('a');
-            link.href = resumePath;
-
-            // Set the download attribute with the desired file name
-            link.download = '/resume.pdf';
-
-            // Append the link to the document
-            document.body.appendChild(link);
-
-            // Trigger a click on the link to start the download
-            link.click();
-
-            // Remove the link from the document
-            document.body.removeChild(link);
-        });
 
     </script>
 </body>
