@@ -184,7 +184,7 @@ section {
 
 .work .content {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .work .content .workBx {
@@ -194,6 +194,8 @@ section {
 
 .workBx img {
     max-width: 100%;
+    height: 280px;
+    width: 409px;
 }
 
 .workBx img:hover {
