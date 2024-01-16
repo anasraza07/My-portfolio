@@ -108,6 +108,10 @@ section {
     letter-spacing: 2px;
     font-weight: 500;
 }
+.btn:hover{
+    background-color: rgb(20, 176, 228);
+
+}
 
 .heading {
     text-align: center;
@@ -471,7 +475,7 @@ section {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 465px) {
 
     header,
     header.sticky {
@@ -485,5 +489,10 @@ section {
     .banner {
         padding: 150px 20px 100px;
     }
+
+    .banner h2 span {
+        font-size: 1.43rem;
+    }
+
 
 }
